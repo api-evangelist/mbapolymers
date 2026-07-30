@@ -1,8 +1,27 @@
 aid: mbapolymers
-name: mbapolymers
-description: mbapolymers is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mbapolymers.png
+name: MBA Polymers
+description: >-
+  MBA Polymers is a global plastics recycling company founded in 1997 that
+  transforms waste plastics recovered from end-of-life durable goods such as
+  computers, electronics, appliances, and automobiles into high-quality
+  post-consumer recycled polymer granulates. Grades include ABS, impact-modified
+  PS, PC/ABS, PP copolymer, and HDPE, produced through a three-step separate,
+  clean, and finish process across operations in several countries. The company
+  publishes no developer API, SDK, or technical developer surface; it was added
+  to the API Evangelist network as a portfolio-company profile of
+  balderton-capital.
 url: https://raw.githubusercontent.com/api-evangelist/mbapolymers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Plastics
+- Recycling
+- Sustainability
+- Circular Economy
+- Manufacturing
+- Materials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mbapolymers-domain-security.yml
 - type: Website
   url: https://mbapolymers.com/
+- type: Blog
+  url: https://mbapolymers.com/blog/
+- type: Support
+  url: https://mbapolymers.com/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
